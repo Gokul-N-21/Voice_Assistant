@@ -76,7 +76,7 @@ To run this project successfully on your local machine using VS Code, ensure the
   pip install SpeechRecognition pyttsx3 pyautogui wikipedia
 ```
   
-  (Note: If PyAudio fails on Windows, download the specific .whl file for your Python version.)
+  (**Note**: If PyAudio fails on Windows, download the specific .whl file for your Python version.)
 
 ### 🎓 Learning Outcomes
 Through this project, I have gained hands-on experience in:
