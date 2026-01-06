@@ -15,7 +15,7 @@ I have implemented three distinct modules to showcase the assistant's versatilit
     The assistant connects to the Wikipedia API to fetch summaries of any topic. It is designed to provide quick "at-a-glance" information without the user needing to open a browser and read through pages of text.
   
   2. **System & Folder Management**
-    This module allows the user to navigate the Windows file system. It can open specific drives (E: or D:), navigate to project folders, and list files. It also manages system power states (Shutdown/Restart).
+    This module allows the user to navigate the Windows file system. It can open specific drives (`E:` or `D:`), navigate to project folders, and list files. It also manages system power states (Shutdown/Restart).
   
   3. **Desktop Automation**
     Automates the opening and closing of standard Windows applications like Notepad and Calculator. It uses process management to ensure the assistant remains active even while other apps are running.
@@ -42,7 +42,7 @@ Once you run the code, you can use the following voice commands:
 
 **System Navigation:**
 
-  * "Open E Drive" — Opens the E: partition in File Explorer.
+  * "Open E Drive" — Opens the `E:` partition in File Explorer.
   * "Open my projects" — Navigates directly to your designated project folder.
   * "What is in this folder" — Lists the first 5 files in the current directory.
 
@@ -50,7 +50,7 @@ Once you run the code, you can use the following voice commands:
 
   * "Open Notepad" / "Close Notepad" — Launches or force-closes Notepad.
   * "Open Calculator" / "Close Calculator" — Launches or force-closes the Calculator.
-  * "Close this window" — Simulates Alt+F4 to close the active app.
+  * "Close this window" — Simulates `Alt+F4` to close the active app.
 
 **Power Commands:**
 
@@ -85,6 +85,3 @@ Through this project, I have gained hands-on experience in:
   * Process Management: Understanding how to launch and terminate system applications using os and subprocess.
   * Automation: Using pyautogui to bridge the gap between software and hardware through keyboard/mouse simulation.
   * Error Handling: Implementing robust try-except blocks to manage real-world issues like network timeouts and ambient noise.
-
-### 🌟 Project Conclusion
-  This Voice Assistant project has been a significant milestone in my journey as a Python developer. It demonstrates the power of automation and how a few lines of code can make human-computer interaction more natural and efficient. Moving forward, I plan to integrate Large Language Models (LLMs) to make the assistant even more intuitive.
