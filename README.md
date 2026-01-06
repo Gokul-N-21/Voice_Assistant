@@ -8,6 +8,8 @@ The assistant follows a Listen-Process-Act logic:
   * **Process:** Converts audio to text and identifies keywords.
   * **Act:** Executes the corresponding Python function (web search, app launch, etc.).
 
+---
+
 ### 🚀 Implementation Use Cases
 I have implemented three distinct modules to showcase the assistant's versatility:
 
@@ -20,6 +22,8 @@ I have implemented three distinct modules to showcase the assistant's versatilit
   3. **Desktop Automation**
     Automates the opening and closing of standard Windows applications like Notepad and Calculator. It uses process management to ensure the assistant remains active even while other apps are running.
 
+---
+
 ### 📦 Libraries Used & Their Purpose
 
 | Library | Purpose |
@@ -31,6 +35,8 @@ I have implemented three distinct modules to showcase the assistant's versatilit
 | `pyautogui` | A GUI automation tool used to simulate keyboard shortcuts (like `Alt+F4` to close windows). |
 | `datetime` | Allows the assistant to know the current time to provide context-aware greetings. |
 | `wikipedia` | Connects the assistant to the Wikipedia API for information retrieval. |
+
+---
 
 ### 🗣️ Command Reference
 Once you run the code, you can use the following voice commands:
@@ -57,6 +63,8 @@ Once you run the code, you can use the following voice commands:
   * "Shutdown" — Asks for confirmation before turning off the PC.
   * "Restart the system" — Reboots the computer after a 10-second delay.
 
+---
+
 ### 🖥️ Requirements for VS Code
 To run this project successfully on your local machine using VS Code, ensure the following:
 
@@ -77,6 +85,8 @@ To run this project successfully on your local machine using VS Code, ensure the
 ```
   
   (**Note**: If PyAudio fails on Windows, download the specific .whl file for your Python version.)
+
+---
 
 ### 🎓 Learning Outcomes
 Through this project, I have gained hands-on experience in:
