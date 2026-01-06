@@ -65,14 +65,16 @@ To run this project successfully on your local machine using VS Code, ensure the
   
   ```Bash
   python -m venv venv
-  .\venv\Scripts\activate```
+  .\venv\Scripts\activate
+```
   
   * Microphone Access: Ensure VS Code and Python have permission to access your system's microphone.
   * Internet Connection: Required for the speech_recognition (Google API) and wikipedia modules.
   * Pip Installations:
   
   ```Bash
-  pip install SpeechRecognition pyttsx3 pyautogui wikipedia```
+  pip install SpeechRecognition pyttsx3 pyautogui wikipedia
+```
   
   (Note: If PyAudio fails on Windows, download the specific .whl file for your Python version.)
 
