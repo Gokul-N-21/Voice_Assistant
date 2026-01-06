@@ -1,5 +1,5 @@
-### 🎙️ Python Multi-Utility Voice Assistant
-## 🌟 Project Overview
+## 🎙️ Python Multi-Utility Voice Assistant
+### 🌟 Project Overview
   This project is a Desktop Voice Assistant built using Python. It acts as a bridge between the user and the computer, allowing for hands-free interaction with the web, system applications, and the local file system.
 
 The assistant follows a Listen-Process-Act logic:
@@ -8,7 +8,7 @@ The assistant follows a Listen-Process-Act logic:
   * **Process:** Converts audio to text and identifies keywords.
   * **Act:** Executes the corresponding Python function (web search, app launch, etc.).
 
-## 🚀 Implementation Use Cases
+### 🚀 Implementation Use Cases
 I have implemented three distinct modules to showcase the assistant's versatility:
 
   1. **Information Retrieval (Wikipedia)**
@@ -32,7 +32,7 @@ I have implemented three distinct modules to showcase the assistant's versatilit
 | `datetime` | Allows the assistant to know the current time to provide context-aware greetings. |
 | `wikipedia` | Connects the assistant to the Wikipedia API for information retrieval. |
 
-## 🗣️ Command Reference
+### 🗣️ Command Reference
 Once you run the code, you can use the following voice commands:
 
 **Web & Info:**
@@ -57,7 +57,7 @@ Once you run the code, you can use the following voice commands:
   * "Shutdown" — Asks for confirmation before turning off the PC.
   * "Restart the system" — Reboots the computer after a 10-second delay.
 
-## 🖥️ Requirements for VS Code
+### 🖥️ Requirements for VS Code
 To run this project successfully on your local machine using VS Code, ensure the following:
 
   * Python 3.x Installed: Download from python.org.
@@ -78,7 +78,7 @@ To run this project successfully on your local machine using VS Code, ensure the
   
   (Note: If PyAudio fails on Windows, download the specific .whl file for your Python version.)
 
-## 🎓 Learning Outcomes
+### 🎓 Learning Outcomes
 Through this project, I have gained hands-on experience in:
 
   * API Integration: Learned how to connect a Python application to external services like Google Speech and Wikipedia.
@@ -86,5 +86,5 @@ Through this project, I have gained hands-on experience in:
   * Automation: Using pyautogui to bridge the gap between software and hardware through keyboard/mouse simulation.
   * Error Handling: Implementing robust try-except blocks to manage real-world issues like network timeouts and ambient noise.
 
-## 🌟 Project Conclusion
+### 🌟 Project Conclusion
   This Voice Assistant project has been a significant milestone in my journey as a Python developer. It demonstrates the power of automation and how a few lines of code can make human-computer interaction more natural and efficient. Moving forward, I plan to integrate Large Language Models (LLMs) to make the assistant even more intuitive.
